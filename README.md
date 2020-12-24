@@ -17,8 +17,8 @@ Elapsed: 12.153 s
 cericson@DESKTOP:~/music-viz$ python render_transform.py lightmyfire.pkl lightmyfire.png --horizontal --height 400 --width 1500 --end-time 10 --pitch-tick-origin F#0 --min-freq F#4 --max-freq F#7 --time-grid 0.83,130,4 --color-pitch
 ```
 
-[The resulting image](lightmyfire.png)
-
+The resulting image:
+![lightmyfire.png](/lightmyfire.png)
 
 ### Miscellanea
 CLI documentation for each of the transform computation and rendering scripts can be accessed via `python <script name>.py -h`
